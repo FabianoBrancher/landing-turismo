@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-color: #F5F4F0;
+}
+
+.page {
+  width: 1280px;
+  margin: 0 auto;
+  padding-top: 80px;
+  box-sizing: border-box;
+}
+
+.page__container {
+  margin: 0 auto;
+  width: 1120px;
+}
+
+.page__header {
+  margin-bottom: 40px;
+}
+
+.page__headline {
+  font-size: 16px;
+  color: #E1624F;
+  line-height: 22px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.page__title {
+  font-size: 36px;
+  color: #1B1B1B;
+  font-weight: bold;
+}
+
+.page__description {
+  font-size: 16px;
+  color: #333333;
+  line-height: 22px;
+  text-align: center;
+}
+
+.hero {
+  /* margin-bottom: 40px; */
+}
+
+.hero__image {
+  width: 100%;
+  height: 660px;
+  border-radius: 28px;
+  margin-bottom: 24px;
+  object-fit: cover;
+}
+
+.hero__description {
+  font-size: 16px;
+  color: #333333;
+  line-height: 22px;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  margin: 36px 0;
+  background-color: #d9d9d9;
+}
+
+.destinations {
+  margin-top: 64px;
+}
+
+.destinations__header {
+  margin-bottom: 8px;
+}
+
+.destinations__headline {
+  font-size: 16px;
+  color: #E1624F;
+  line-height: 22px;
+  font-weight: bold;
+  margin-bottom: 2px;
+  text-transform: uppercase;
+}
+
+.destinations__title {
+  font-size: 32px;
+  color: #1B1B1B;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.destinations__description {
+  font-size: 16px;
+  color: #333333;
+  line-height: 22px;
+  margin-bottom: 64px;
+}
+
+.card__image {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 28px;
+  margin-bottom: 20px;
+}
+
+.card__content {
+  margin-bottom: 48px;
+}
+
+.card__title {
+  font-size: 28px;
+  color: #1B1B1B;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+.card__description {
+  font-size: 16px;
+  color: #333333;
+}
+
+.card__label {
+  font-size: 16px;
+  color: #333333;
+  font-weight: bold;
+}
+
+.card__item {
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 18px;
+}
+
+.card__item--blue {
+  color: #0C51A7;
+}
+
+.card__item--purple {
+  color: #591B98;
+}
+
+.card__item--pink {
+  color: #E5245E;
+}
+
+.card__item--orange {
+  color: #E95E10;
+}
+
+.card__item::marker {
+  color: #333333;
+}
+
+.footer {
+  font-size: 16px;
+  color: #333333;
+  margin-top: 65px;
+  text-align: center;
+  padding-bottom: 48px;
+}
+
+.footer img {
+  vertical-align: middle;
+}
